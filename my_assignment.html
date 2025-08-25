@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A sample semantic HTML5 webpage showcasing accessibility and SEO best practices.">
+  <title>My Semantic HTML5 Page</title>
+</head>
+<body>
+  
+  <!-- Page Header -->
+  <header>
+    <h1>My Website</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#home" aria-current="page">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main id="home">
+    
+    <!-- About Section -->
+    <section id="about">
+      <h2>About This Page</h2>
+      <p>
+        This page is created using only HTML5 semantic elements. 
+        It is designed to be accessible, SEO-friendly, and easy to navigate for all users, including those using assistive technologies.
+      </p>
+    </section>
+
+    <!-- Articles Section -->
+    <section id="articles">
+      <h2>Articles</h2>
+
+      <article>
+        <header>
+          <h3>Why Semantic HTML Matters</h3>
+          <p><time datetime="2025-08-25">August 25, 2025</time> by <span role="author">Michael Oketch</span></p>
+        </header>
+        <p>
+          Semantic HTML improves both accessibility and search engine optimization by giving meaning to web content. 
+          Assistive technologies and search engines can better interpret your page structure and purpose.
+        </p>
+      </article>
+
+      <article>
+        <header>
+          <h3>Building Accessible Websites</h3>
+          <p><time datetime="2025-08-24">August 24, 2025</time> by <span role="author">Michael Oketch</span></p>
+        </header>
+        <p>
+          Accessibility ensures that websites can be used by people with disabilities. 
+          Proper HTML landmarks and ARIA attributes help screen readers and other tools provide better user experiences.
+        </p>
+      </article>
+    </section>
+    
+  </main>
+
+  <!-- Contact Section -->
+  <aside id="contact">
+    <h2>Contact</h2>
+    <address>
+      <p>Email: <a href="mailto:info@example.com">moketchus12@gmail.com</a></p>
+    </address>
+  </aside>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+    <nav aria-label="Footer navigation">
+      <ul>
+        <li><a href="#home">Back to top</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+</html>
