@@ -1,0 +1,25 @@
+p{ 
+    color:chocolate;
+    fontsize:22;
+}
+
+h1,h2,h3{
+    color:indigo;
+    fontsize; 30;
+}
+
+#header-1{
+    color:red;
+    text-decoration:underline;
+}
+
+.p-css{
+    color:teal;
+    fontsize:25;
+}
+
+*{
+    margin:0;
+    paddling:0;
+    background-color:lightgrey;
+}
