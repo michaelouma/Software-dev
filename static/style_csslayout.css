@@ -1,3 +1,8 @@
+body{
+    height:2000px;
+    margin:0;
+}
+
 p{
     display:inline;
 }
@@ -8,8 +13,8 @@ span{
 
 .container{
     display:inline-block;
-    width:200px;
-    height:100px;
+    width:400px;
+    height:500px;
     background-color:purple;
     border:2px solid black;
 
@@ -17,4 +22,14 @@ span{
 
 #p-one{
     display:none;
+}
+
+.fixed-nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color:grey;
+    padding:10px;
+    text-align:center;
 }

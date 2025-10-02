@@ -2,9 +2,10 @@
 <html lang="en">
     <head>
         <title> CSS Layout & Responsive Web Design</title>
-        <link rel="stylesheet" href="style_csslayout.css">
+        <link rel="stylesheet" href="../static/style_csslayout.css">
     </head>
     <body>
+        <div class="fixed-nav">I have stayed fixed</div>
         <h1>Layout Principals</h1>
         <ol>
             <li>
@@ -32,9 +33,32 @@
                 <li>Flex</li>
                 <li>Grid</li>
             </ul>
+            <div class="container">
+                <p id="p-one"> This is a testing paragraph it wont be visible. </p>
+            </div>
+            <img src="https://images.pexels.com/photos/34014534/pexels-photo-34014534.jpeg" width="400" height="500" alt="Hoops">
+            <img src="../photos/pizza.png" width="300" height="250" alt="Sweet pizza" >
+            <li>
+                <h2>CSS Box Model</h2>
+            </li>
+            <ul>
+                <li>Margin</li>
+                <li>Padding</li>
+                <li>Border</li>
+                <li>Content</li>
+            </ul>
+            <li>
+                <h2>CSS Positioning (allows you to move elements around the page)</h2>
+            </li>
+            <ul>
+                <li>Static (default follows normal flow of the document)</li>
+                <li>Relative (simply moving it relative to its position , away from its original position)</li>
+                <li>Absolute (stick it to closest position ancestor)</li>
+                <li>Fixed (Always stays on its space)</li>
+                <li>Sticky (acts like ralative untill you scroll to a certain point it sticks to that position)</li>
+            </ul>
+
         </ol>
-        <div class="container">
-            <p id="p-one"> This is a testing paragraph it wont be visible. </p>
-        </div>
+              
     </body>
 </html>
