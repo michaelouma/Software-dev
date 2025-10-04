@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<<<<< HEAD
 # 📘 Assignment: Enhancing HTML5 Content & Mastering Forms
 
 ## Overview
