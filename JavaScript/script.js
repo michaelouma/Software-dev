@@ -21,3 +21,5 @@ Hello()
 // 3. use of a modern arrow function
 const Goodbye = () => console.log("Goodbye from this side,,this is a modern arrow function")
 Goodbye()
+
+// Parameters and return value
