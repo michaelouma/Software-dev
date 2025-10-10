@@ -23,3 +23,9 @@ const Goodbye = () => console.log("Goodbye from this side,,this is a modern arro
 Goodbye()
 
 // Parameters and return value
+
+function multiply(a,b,c){
+    return a*b*c
+}
+
+console.log(multiply(1,2,3))
