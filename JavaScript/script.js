@@ -29,3 +29,8 @@ function multiply(a,b,c){
 }
 
 console.log(multiply(1,2,3))
+
+
+// Document Object Model (DOM)
+
+
